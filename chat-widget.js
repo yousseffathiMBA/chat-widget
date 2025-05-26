@@ -623,7 +623,7 @@
                     <input type="email" id="chat-user-email" class="form-input" placeholder="Your email address" required>
                     <div class="error-text" id="email-error"></div>
                 </div>
-                <button type="submit" class="submit-registration">Continue to Chat</button>
+                <button type="submit" class="submit-registration">متابعة الدردشة</button>
             </form>
         </div>
     `;
