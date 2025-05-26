@@ -616,14 +616,14 @@
 </h2>
             <form class="registration-form">
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-name">Name</label>
-                    <input type="text" id="chat-user-name" class="form-input" placeholder="Your name" required>
+                    <label class="form-label" for="chat-user-name">الإسم</label>
+                    <input type="text" id="chat-user-name" class="form-input" placeholder="إسمك الكامل" required>
                     <div class="error-text" id="name-error"></div>
                 </div>
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-email">Email</label>
-                    <input type="email" id="chat-user-email" class="form-input" placeholder="Your email address" required>
-                    <div class="error-text" id="email-error"></div>
+                    <label class="form-label" for="chat-user-number">الهاتف</label>
+                    <input type="number" id="chat-user-number" class="form-input" placeholder="رقم هاتفك" required>
+                    <div class="error-text" id="number-error"></div>
                 </div>
                 <button type="submit" class="submit-registration">متابعة الدردشة</button>
             </form>
@@ -635,7 +635,7 @@
         <div class="chat-body">
             <div class="chat-messages"></div>
             <div class="chat-controls">
-                <textarea class="chat-textarea" placeholder="Type your message here..." rows="1"></textarea>
+                <textarea class="chat-textarea" placeholder="أكتب رسالتك هنا..." rows="1"></textarea>
                 <button class="chat-submit">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M22 2L11 13"></path>
