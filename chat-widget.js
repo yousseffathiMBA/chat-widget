@@ -611,7 +611,9 @@
             <p class="chat-response-time">${settings.branding.responseTimeText}</p>
         </div>
         <div class="user-registration">
-            <h2 class="registration-title">Please enter your details to start chatting</h2>
+            <h2 class="registration-title">الرجاء إدخال التفاصيل الخاصة بك لبدء الدردشة
+
+</h2>
             <form class="registration-form">
                 <div class="form-field">
                     <label class="form-label" for="chat-user-name">Name</label>
