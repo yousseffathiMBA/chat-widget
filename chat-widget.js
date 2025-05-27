@@ -616,13 +616,13 @@
 </h2>
             <form class="registration-form">
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-name">الإسم</label>
-                    <input type="text" id="chat-user-name" class="form-input" placeholder="إسمك الكامل" required>
+                    <label class="form-label" for="chat-user-name">Name</label>
+                    <input type="text" id="chat-user-name" class="form-input" placeholder="your name" required>
                     <div class="error-text" id="name-error"></div>
                 </div>
                 <div class="form-field">
-                    <label class="form-label" for="chat-user-email">الهاتف</label>
-                    <input type="email" id="chat-user-email" class="form-input" placeholder="رقم هاتفك" required>
+                    <label class="form-label" for="chat-user-email">Email</label>
+                    <input type="email" id="chat-user-email" class="form-input" placeholder="email" required>
                     <div class="error-text" id="email-error"></div>
                 </div>
                 <button type="submit" class="submit-registration">متابعة الدردشة</button>
