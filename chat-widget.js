@@ -622,7 +622,7 @@
                 </div>
                 <div class="form-field">
                     <label class="form-label" for="chat-user-email">Email</label>
-                    <input type="email" id="chat-user-email" class="form-input" placeholder="email" required>
+                    <input type="email" id="chat-user-email" class="form-input" placeholder="Your email address" required>
                     <div class="error-text" id="email-error"></div>
                 </div>
                 <button type="submit" class="submit-registration">متابعة الدردشة</button>
