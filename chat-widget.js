@@ -330,7 +330,7 @@
 
         .chat-assist-widget .chat-launcher {
             position: fixed;
-            bottom: 26px;
+            bottom: 25px;
             height: 40px;
             border-radius: var(--chat-radius-full);
             background: linear-gradient(135deg, var(--chat-color-primary) 0%, var(--chat-color-secondary) 100%);
