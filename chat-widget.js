@@ -752,7 +752,7 @@
                 body: JSON.stringify(sessionData)
             });
 
-            await sessionResponse.json();
+            const sessionResponseData = await sessionResponse.json();
 
             const userInfoMessage = `الاسم: ${name}\nرقم الهاتف: ${number}`;
 
